@@ -35,10 +35,6 @@ The system automatically logs in to the console, launches Xorg with a minimal wi
 
 1. Download the installation script:
     
-    ```
-    wget https://your-link/install_xeoma_autostart.sh`
-    ```
-    
 1. Make it executable:
     
     ```
@@ -129,10 +125,6 @@ If you need to modify the launch behavior, edit:
 
 1. Скачайте скрипт:
     
-    ```
-    wget https://your-link/install_xeoma_autostart.sh
-    ```
-    
 2. Сделайте его исполняемым:
     
     ```
@@ -179,4 +171,5 @@ If you need to modify the launch behavior, edit:
     
 - Условие автозапуска: `/home/vmadmin/.profile`
     
+
 - Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
