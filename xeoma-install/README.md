@@ -86,8 +86,6 @@ If you need to modify the launch behavior, edit:
 
 ---
 
-## README.md (Russian)
-
 # Автоматическая установка и автозапуск Xeoma в графическом режиме на Ubuntu Server 18.04
 
 Этот проект содержит полностью автоматизированный скрипт для установки и настройки Xeoma, который запускается в графическом режиме на сервере Ubuntu 18.04 без полноценного рабочего стола.  
@@ -173,3 +171,4 @@ If you need to modify the launch behavior, edit:
     
 
 - Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
+
