@@ -1,6 +1,12 @@
 #!/bin/bash
 set -e
 
+# Check for root privileges
+if [ "$EUID" -ne 0 ]; then
+    echo "This script must be run as root. Use: sudo bash install_xeoma.sh"
+    exit 1
+fi
+
 USER_NAME="vmadmin"
 HOME_DIR="/home/$USER_NAME"
 XEOMA_DIR="$HOME_DIR/Xeoma"
