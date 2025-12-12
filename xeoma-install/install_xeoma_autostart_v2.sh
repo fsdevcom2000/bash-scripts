@@ -3,7 +3,7 @@ set -e
 
 # Check for root privileges
 if [ "$EUID" -ne 0 ]; then
-    echo "This script must be run as root. Use: sudo bash install_xeoma.sh"
+    echo "This script must be run as root. Use: sudo bash install_xeoma_v2.sh"
     exit 1
 fi
 
@@ -135,3 +135,4 @@ echo "$XEOMA_DIR/xeoma.app -showpassword"
 
 echo "==> Installation complete. Reboot required!"
 echo "Run: reboot"
+
