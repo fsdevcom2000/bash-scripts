@@ -28,8 +28,9 @@ The system automatically logs in to the console, launches Xorg with a minimal wi
     
 - Root access
     
-- User account "vmadmin" (can be changed in the script)
-    
+- User account "vmadmin" (can be changed in the script install_xeoma_autostart.sh)
+
+- The script no longer requires manually specifying the user. In version 2 (install_xeoma_autostart_v2.sh), the username will be requested automatically during execution.
 
 ## Installation
 
@@ -116,8 +117,9 @@ If you need to modify the launch behavior, edit:
     
 - Root-доступ
     
-- Пользователь "vmadmin" (можно изменить в скрипте)
-    
+- Пользователь "vmadmin" (можно изменить в скрипте install_xeoma_autostart.sh)
+
+- В версии 2 (install_xeoma_autostart_v2.sh) скрипт больше не требует ручного изменения пользователя. Имя пользователя будет запрошено автоматически при выполнении.
 
 ## Установка
 
@@ -171,4 +173,5 @@ If you need to modify the launch behavior, edit:
     
 
 - Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
+
 
