@@ -135,4 +135,3 @@ echo "$XEOMA_DIR/xeoma.app -showpassword"
 
 echo "==> Installation complete. Reboot required!"
 echo "Run: reboot"
-
