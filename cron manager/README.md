@@ -12,7 +12,7 @@ Supports adding, listing, editing, removing tasks, and using predefined template
 - Add, edit, remove cron tasks
 - Support for task comments
 - Templates for common schedules (every 5 minutes, daily, weekdays, etc.)
-- Logging of all actions to `$HOME/cron_manager.log`
+- Logging of all actions to `cron_manager.log`
 
 ---
 
@@ -239,4 +239,5 @@ All actions are logged to:
     
 - Для редактирования/удаления используйте номера строк из меню **List tasks**.
     
+
 
