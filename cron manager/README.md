@@ -1,6 +1,6 @@
 # Cron Manager Script
 
-A professional interactive Bash script to manage cron jobs.  
+A simple interactive Bash script to manage cron jobs.  
 Supports adding, listing, editing, removing tasks, and using predefined templates. Logs all actions.
 
 ---
@@ -239,3 +239,4 @@ All actions are logged to:
     
 - Для редактирования/удаления используйте номера строк из меню **List tasks**.
     
+
