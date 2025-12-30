@@ -18,16 +18,16 @@ Supports adding, listing, editing, removing tasks, and using predefined template
 
 ## Installation
 
-1. Clone the repository or copy the `cron_manager.sh` script to your system.
+1. Clone the repository or copy the `cron_man.sh` script to your system.
 2. Make the script executable:
 
 ```bash
-chmod +x cron_manager.sh
+chmod +x cron_man.sh
 ```
 
 3. Run the script:
 
-`./cron_manager.sh`
+`./cron_man.sh`
 
 ---
 
@@ -37,7 +37,7 @@ chmod +x cron_manager.sh
 
 Run the script without arguments to start the menu:
 
-`./cron_manager.sh`
+`./cron_man.sh`
 
 Menu options:
 
@@ -58,16 +58,16 @@ Menu options:
 Add a task via command line:
 
 ```bash
-./cron_manager.sh add --cmd "/usr/bin/python3 /opt/backup.py" --cron "*/5 * * * *" --comment "Backup every 5 minutes"
+./cron_man.sh add --cmd "/usr/bin/python3 /opt/backup.py" --cron "*/5 * * * *" --comment "Backup every 5 minutes"
 ```
 
 Other CLI commands:
 
 ```bash
-./cron_manager.sh list 
-./cron_manager.sh remove 3 
-./cron_manager.sh edit 2 
-./cron_manager.sh template daily_3am
+./cron_man.sh list 
+./cron_man.sh remove 3 
+./cron_man.sh edit 2 
+./cron_man.sh template daily_3am
 ```
 
 ### Templates
@@ -141,17 +141,17 @@ All actions are logged to:
 
 ## Установка
 
-1. Скопируйте скрипт `cron_manager.sh` или клонируйте репозиторий.
+1. Скопируйте скрипт `cron_man.sh` или клонируйте репозиторий.
     
 2. Сделайте скрипт исполняемым:
     
 
-`chmod +x cron_manager.sh`
+`chmod +x cron_man.sh`
 
 3. Запуск скрипта:
     
 
-`./cron_manager.sh`
+`./cron_man.sh`
 
 ---
 
@@ -161,7 +161,7 @@ All actions are logged to:
 
 Запуск без аргументов:
 
-`./cron_manager.sh`
+`./cron_man.sh`
 
 Меню:
 
@@ -185,16 +185,16 @@ All actions are logged to:
 Добавление задачи через командную строку:
 
 ```bash
-./cron_manager.sh add --cmd "/usr/bin/python3 /opt/backup.py" --cron "*/5 * * * *" --comment "Резервное копирование каждые 5 минут"
+./cron_man.sh add --cmd "/usr/bin/python3 /opt/backup.py" --cron "*/5 * * * *" --comment "Резервное копирование каждые 5 минут"
 ```
 
 Другие команды:
 
 ```bash
-./cron_manager.sh list 
-./cron_manager.sh remove 3 
-./cron_manager.sh edit 2 
-./cron_manager.sh template daily_3am
+./cron_man.sh list 
+./cron_man.sh remove 3 
+./cron_man.sh edit 2 
+./cron_man.sh template daily_3am
 ```
 
 ---
@@ -239,5 +239,6 @@ All actions are logged to:
     
 - Для редактирования/удаления используйте номера строк из меню **List tasks**.
     
+
 
 
