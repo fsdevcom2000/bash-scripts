@@ -2,7 +2,7 @@
 
 A collection of practical Bash scripts for system management and automation. Each script is located in its own directory with source code and usage instructions.
 
-### Cron Manager Script
+## Cron Manager Script
 A simple interactive Bash script to manage cron jobs. Supports adding, listing, editing, removing tasks, and using predefined templates. Logs all actions.
 
 Repository: https://github.com/fsdevcom2000/bash-scripts/tree/main/cron%20manager
