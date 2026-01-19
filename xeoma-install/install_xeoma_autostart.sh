@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# ====================================================================================================
+# Name: install_xeoma_autostart.sh
+# Description: Automated Installation and Autostart of Xeoma in Graphical Mode on Ubuntu Server 18.04
+# Author: fsdevcom2000
+# Version: 1.0
+# URL: https://github.com/fsdevcom2000/bash-scripts/tree/main/xeoma-install
+# ====================================================================================================
+
 set -e
 
 # Check for root privileges
