@@ -56,7 +56,7 @@ The system automatically logs in to the console, launches Xorg with a minimal wi
 
 ## What Happens After Reboot
 
-- The system automatically logs in as user `vmadmin` on tty1.
+- The system automatically logs in as user `$USER` on tty1.
     
 - `.profile` triggers `startx`.
     
@@ -72,15 +72,15 @@ The system automatically logs in to the console, launches Xorg with a minimal wi
 To view the password for connecting from a remote Xeoma client, run:
 
 ```
-/home/vmadmin/Xeoma/xeoma.app -showpassword
+/home/$USER/Xeoma/xeoma.app -showpassword
 ```
 ## Editing Configuration
 
 If you need to modify the launch behavior, edit:
 
-- Startup script: `/home/vmadmin/.xinitrc`
+- Startup script: `/home/$USER/.xinitrc`
     
-- Autostart condition: `/home/vmadmin/.profile`
+- Autostart condition: `/home/$USER/.profile`
     
 - Autologin settings: `/etc/systemd/system/getty@tty1.service.d/override.conf`
     
@@ -146,7 +146,7 @@ If you need to modify the launch behavior, edit:
 
 ## Что произойдет после перезагрузки
 
-- Система автоматически войдет под пользователем `vmadmin` на tty1.
+- Система автоматически войдет под пользователем `$USER` на tty1.
     
 - Из `.profile` будет выполнена команда `startx`.
     
@@ -161,15 +161,15 @@ If you need to modify the launch behavior, edit:
 
 Для отображения пароля подключения запустите:
 
-`/home/vmadmin/Xeoma/xeoma.app -showpassword`
+`/home/$USER/Xeoma/xeoma.app -showpassword`
 
 ## Изменение конфигурации
 
 При необходимости можно изменить следующие файлы:
 
-- Скрипт запуска графики: `/home/vmadmin/.xinitrc`
+- Скрипт запуска графики: `/home/$USER/.xinitrc`
     
-- Условие автозапуска: `/home/vmadmin/.profile`
+- Условие автозапуска: `/home/$USER/.profile`
     
 
 - Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
