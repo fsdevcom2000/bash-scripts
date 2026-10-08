@@ -25,7 +25,7 @@ SUPERVISOR-MANAGER is an interactive Bash script for managing Supervisor (a Linu
 
 Repository: https://github.com/fsdevcom2000/bash-scripts/tree/main/supervisor
 
-## Automated Installation and Autostart of Xeoma in Graphical Mode on Ubuntu Server 18.04
+## Installing Xeoma on Ubuntu Server 18.04 and Configuring Autostart in Graphical Mode
 
 This project provides a fully automated script for installing and configuring Xeoma to start in graphical mode on Ubuntu Server 18.04 without a desktop environment. The system automatically logs in to the console, launches Xorg with a minimal window manager, and starts the Xeoma client in fullscreen mode.
 
