@@ -85,6 +85,11 @@ If you need to modify the launch behavior, edit:
 - Autologin settings: `/etc/systemd/system/getty@tty1.service.d/override.conf`
     
 
+## Extras
+### Network Setup Script `setup-network.sh`
+
+Interactive Bash script for initial network configuration on Ubuntu Server 18.04, run from the local console. Assigns static IPv4 addresses to physical Ethernet interfaces via Netplan — no DHCP, gateway, DNS or IPv6. Backs up the existing config and rolls back automatically on failure.
+
 ---
 
 # Автоматическая установка и автозапуск Xeoma в графическом режиме на Ubuntu Server 18.04
@@ -170,8 +175,15 @@ If you need to modify the launch behavior, edit:
 - Скрипт запуска графики: `/home/$USER/.xinitrc`
     
 - Условие автозапуска: `/home/$USER/.profile`
+- Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
+
+
+## Дополнительно
+### Скрипт настройки сети `setup-network.sh`
+
+Интерактивный Bash-скрипт для первичной настройки сети на Ubuntu Server 18.04, запускается с локальной консоли. Назначает статические IPv4-адреса физическим Ethernet-интерфейсам через Netplan — без DHCP, шлюза, DNS и IPv6. Делает резервную копию и автоматически откатывается при ошибке.
     
 
-- Настройки автологина: `/etc/systemd/system/getty@tty1.service.d/override.conf`
+
 
 
