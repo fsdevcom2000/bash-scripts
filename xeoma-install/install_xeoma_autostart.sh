@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # ====================================================================================================
-# Name:        install_xeoma_autostart_v3.sh
+# Name:        install_xeoma_autostart.sh
 # Description: Install Xeoma and configure graphical autostart (autologin tty1 -> startx -> Xeoma client)
 #              on Ubuntu  Server.
 # Author: fsdevcom2000
 # URL: https://github.com/fsdevcom2000/bash-scripts/tree/main/xeoma-install
 #
-# Usage:       sudo ./install_xeoma_autostart_v3.sh [-u USER] [-y] [-h]
+# Usage:       sudo ./install_xeoma_autostart.sh [-u USER] [-y] [-h]
 # Env:         XEOMA_URL     - override download URL
 #              XEOMA_SHA256  - if set, the downloaded archive is verified against this checksum
 # ====================================================================================================
