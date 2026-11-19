@@ -139,7 +139,7 @@ Requirements: root, systemd, apt. Log: `/var/log/xeoma-install.log`. After insta
 
 **Fixes**
 
-- `systemctl daemon-reexec` → `daemon-reload`.
+- `systemctl daemon-reexec` -> `daemon-reload`.
 - Home directory taken via `getent passwd` instead of `/home/$USER`.
 - Paths quoted; `DEBIAN_FRONTEND=noninteractive` and `--no-install-recommends` for apt.
 - Clearer final message for the client password command; correct script name in usage.
@@ -148,7 +148,7 @@ Requirements: root, systemd, apt. Log: `/var/log/xeoma-install.log`. After insta
 
 - Autologin on tty1 gives console access without a password: acceptable for a kiosk, keep physical access in mind.
 - If the Xeoma client exits, the X session ends and autologin restarts it (intended kiosk behavior).
-- Test on a non-production machine before rollout.
+
 ---
 
 # Автоматическая установка и автозапуск Xeoma в графическом режиме на Ubuntu Server 18.04
